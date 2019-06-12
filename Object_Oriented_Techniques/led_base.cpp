@@ -1,7 +1,7 @@
 class led_base {
 
   public:
-    virtual boid toggle() = 0; // Pure abstract.
+    virtual void toggle() = 0; // Pure abstract.
     virtual ~led_base() { }    // Virtual destructor.
 
     // Interface for querying the LED state.
