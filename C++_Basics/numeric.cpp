@@ -15,8 +15,8 @@ const std::array<int, 3U> v {
 
 };
 
-const in uv = std::inner_product(u.begin(),
-                                 u.end(),
-                                 v.begin(),
-                                 0);
+const int uv = std::inner_product(u.begin(),
+                                  u.end(),
+                                  v.begin(),
+                                  0);
 // Result is 32.
